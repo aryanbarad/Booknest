@@ -1,0 +1,156 @@
+<html>
+
+<head>
+    <title>BookNest-Contcat us</title>
+    <style>
+        body {
+            background-color: #E6E6FA;
+        }
+        nav {
+            background-color: #191970;
+            color: white;
+            padding: 15px;
+            text-align: center;
+
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a:hover {
+            color: gainsboro;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #191970;
+            color: white;
+            margin-top: 20px;
+            font-size: x-large;
+        }
+
+        .footer .social-links {
+            margin-top: 10px;
+        }
+
+        .footer .social-links a:hover {
+            margin: 0 10px;
+            color:ghostwhite;
+            text-decoration: none;
+            font-size:smaller ;
+        }
+
+
+        .footer .social-links a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 30px;
+        }
+
+        .footer .social-links img {
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+            vertical-align: middle;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            }
+
+        .contact-form {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #3b82f6;
+        }
+
+        button {
+            background-color: #2563eb;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Services.html">services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="contact-form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            &copy; 2025 Book Haven. All rights reserved.
+            <h2>BookNest</h2>
+            <div class="social-links">
+
+                <a href="https://www.instagram.com/"><img src="instagram.jpeg" alt="intagram">instagram</a>
+                <a href="https://www.youtube.com"><img src="youtube.png" alt="youtube">youtube</a>
+                <a href="https://www.twitter.com"><img src="twitter.png" alt="teitter">twitter</a>
+
+            </div>
+        </div>
